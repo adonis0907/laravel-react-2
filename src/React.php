@@ -28,7 +28,7 @@ class React {
 		);
 	}
 
-	public function router($routes, array $data, $path = null)
+	public function router($routes, array $data = [], $path = null)
 	{
 		$props = json_encode($data);
 
