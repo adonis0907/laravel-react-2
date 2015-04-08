@@ -1,0 +1,25 @@
+{
+    "name": "allantatter/laravel-react",
+    "description": "Render React.js components seemlessly on the server side within Laravel Blade views.",
+    "keywords": ["laravel", "react", "reactjs", "blade"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Tatter",
+            "email": "allan.tatter@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "mockery/mockery": "0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AllanTatter\\React\\": "src/"
+        }
+    }
+}
