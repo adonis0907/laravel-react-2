@@ -1,4 +1,12 @@
+![](https://raw.githubusercontent.com/allantatter/laravel-react/master/logo.png)
+
 # Laravel React
+
+[![Build Status](https://travis-ci.org/allantatter/laravel-react.svg)](https://travis-ci.org/allantatter/laravel-react)
+[![Total Downloads](https://poser.pugx.org/allantatter/laravel-react/downloads.svg)](https://packagist.org/packages/allantatter/laravel-react)
+[![Latest Stable Version](https://poser.pugx.org/allantatter/laravel-react/v/stable.svg)](https://packagist.org/packages/allantatter/laravel-react)
+[![Latest Unstable Version](https://poser.pugx.org/allantatter/laravel-react/v/unstable.svg)](https://packagist.org/packages/allantatter/laravel-react)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/allantatter/laravel-react)
 
 Add React.js support seemlessly for Laravel Blade templates.
 
@@ -15,7 +23,7 @@ Add this to your project's `composer.json`
 Then run
 
 ```
-composer update
+$ composer update
 ```
 
 ## Service provider & alias
@@ -39,10 +47,10 @@ In this repository, you'll find a directory named `example` and inside that is `
 Then in your project's root dir, run
 
 ```
-npm install -g nodemon
+$ npm install -g nodemon
 
-npm install
-npm start
+$ npm install
+$ npm start
 ```
 
 If you put `server.js` in another location, you may have to configure this line inside that file
