@@ -16,7 +16,7 @@ Add this to your project's `composer.json`
 
 ```
 "require": {
-	"allantatter/laravel-react": "dev-master"
+	"allantatter/laravel-react": "0.1.*"
 },
 ```
 
@@ -84,7 +84,7 @@ REACT_COMPONENTS_DIR=components
 REACT_EXTENSION=jsx
 ```
 
-## Snippets that may become handy
+## Snippets that may come in handy
 
 Handle 404 pages with react-router by rendering your react application with adding this snippet into `app/Exceptions/Handler.php`, method `render()`
 
