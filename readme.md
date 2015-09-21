@@ -8,7 +8,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/allantatter/laravel-react/v/unstable.svg)](https://packagist.org/packages/allantatter/laravel-react)
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/allantatter/laravel-react)
 
-Add React.js support seemlessly for Laravel Blade templates.
+Add React.js support seamlessly for Laravel Blade templates.
 
 ## Installation
 
